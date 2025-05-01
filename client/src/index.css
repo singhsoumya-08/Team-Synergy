@@ -1,0 +1,70 @@
+
+
+:root {
+  /* Typography */
+  --font-family-sans: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --line-height: 1.5;
+  --font-weight-normal: 400;
+
+  /* Core colors */
+  --color-text: #213547;
+  --color-bg: #ffffff;
+  --color-primary: #1976d2;
+  --color-primary-light: #63a4ff;
+  --color-link: #1976d2;
+  --color-link-hover: #115293;
+  --color-button-bg: #f5f5f5;
+  --color-button-hover: #e0e0e0;
+}
+
+/* Global reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base layout */
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  font-family: var(--font-family-sans);
+  line-height: var(--line-height);
+  font-weight: var(--font-weight-normal);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+/* Links */
+a {
+  color: var(--color-link);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+  text-decoration: underline;
+}
+
+/* Buttons (non-MUI fallback) */
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--color-button-bg);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: var(--color-button-hover);
+}

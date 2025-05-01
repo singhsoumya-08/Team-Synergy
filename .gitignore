@@ -1,0 +1,17 @@
+# Node dependencies
+/client/node_modules/
+/server/node_modules/
+
+# Environment files
+/server/.env
+
+# Build outputs
+/client/dist/
+
+# Uploads folder (you may choose to include it if you want images versioned,
+# but typically you store uploads separately in production)
+#/server/uploads/
+
+# OS files
+.DS_Store
+
