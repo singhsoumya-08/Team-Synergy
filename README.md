@@ -61,8 +61,8 @@ Team Tracker helps you:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-team-name>.git
-cd <your-team-name>
+git clone https://github.com/singhsoumya-08/Team-Synergy.git
+cd Team-Synergy
 ```
 
 ### 2. Configure & start the backend
@@ -75,9 +75,9 @@ npm install
 1. Create a `.env` file in `server/`:
    ```env
    MONGO_URI=<your-mongodb-connection-URI>
-   PORT=5000
+   PORT=8800
    ```
-2. Ensure the `uploads/` folder exists:
+2. Ensure the `uploads/` folder exists within server/:
    ```bash
    mkdir uploads
    ```
