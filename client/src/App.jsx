@@ -18,7 +18,7 @@ export default function App() {
       <AppBar position="static" color="primary">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Team Tracker
+            Team Tracker (Team Synergy)
           </Typography>
           <Button color="inherit" component={Link} to="/">
             Home
